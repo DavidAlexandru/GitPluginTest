@@ -38,7 +38,7 @@ public class LoginBean {
 			errorMsg = null;
 			return "welcome";
 		} else {
-			errorMsg = "Invalid user id or password. Please try again";
+			errorMsg = "Invalid user id or password. Please try again!";
 			return null;
 		}
 	}
