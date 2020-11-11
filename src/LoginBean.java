@@ -42,4 +42,8 @@ public class LoginBean {
 			return null;
 		}
 	}
+	
+	public String returnHelloMessage() {
+		return "Hello !";
+	}
 }
